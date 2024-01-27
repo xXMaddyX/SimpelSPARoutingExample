@@ -4,3 +4,11 @@
     box-sizing: border-box;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background: gray;
+    margin-bottom: 50px;
+}

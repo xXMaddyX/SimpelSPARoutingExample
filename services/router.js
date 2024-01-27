@@ -41,15 +41,26 @@ const Router = {
                 pageElement.classList.add("main-content");
 
                 const heading2 = document.createElement('h1');
-                heading2.textContent = "Willkommen auf Main";
+                heading2.textContent = "Das ist die Mainpage";
 
                 const text2 = document.createElement('p');
-                text2.textContent = "Das ist nur ein kleiner test Text auf Main"
+                text2.textContent = "Und hier der Main Text";
 
                 pageElement.appendChild(heading2)
                 pageElement.appendChild(text2)
                 break
             case "/contact":
+                pageElement = document.createElement('div');
+                pageElement.classList.add("main-content");
+
+                const heading3 = document.createElement('h1');
+                heading3.textContent = "Hier ist der Kontakt";
+
+                const text3 = document.createElement('p');
+                text3.textContent = "Bla Blub Schalala";
+
+                pageElement.appendChild(heading3)
+                pageElement.appendChild(text3)
                 break
         }
         if (pageElement) {
