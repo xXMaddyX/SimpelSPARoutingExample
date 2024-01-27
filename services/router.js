@@ -63,6 +63,7 @@ const Router = {
                 pageElement.appendChild(text3)
                 break
         }
+        //Resets InnerHTML of Main
         if (pageElement) {
             const cache = document.querySelector("main");
             cache.innerHTML = "";
